@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Europa Puzzle</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <script type="text/javascript" src="http://serverapi.arcgisonline.com/jsapi/arcgis/?v=2.8compact"></script>
+
+    <script src="javascript/thinkmaps.js"></script>
+    <script src="javascript/thinkmaps.htmltemplates.headerSidebar.js"></script>
+    <script src="javascript/thinkmaps.puzzle.main.js"></script>
+    <script src="javascript/thinkmaps.puzzle.localization.js"></script>
+    <script src="javascript/thinkmaps.puzzle.countries.js"></script>
+
+    <script type="text/javascript">
+        dojo.addOnLoad(thinkmaps.puzzle.main.onBodyLoad);
+    </script>
+
+</head>
+
+<body>
+
+<!-- header -->
+<div id="header">
+    <div id="heading">
+        Kennen Sie Europa?<br>
+        <div id="subHeading">
+            L&auml;nder von der rechten Seite an die richtige Position in der Karte ziehen.<br>
+            <div id="time" style="color: #a8cae6; padding-top: 10px;"></div>
+        </div>
+
+    </div>
+</div>
+
+<!-- sidebar -->
+<div id="sidebar"></div>
+
+<!-- content area -->
+<div id="content"></div>
+
+</body>
+</html>

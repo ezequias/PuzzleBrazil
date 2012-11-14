@@ -1,0 +1,71 @@
+html, body {
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+#header {
+    position: absolute;
+    background: #444444;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+#sidebar {
+    position: absolute;
+    background: #ffffff;
+    color: #000000;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 16px;
+    overflow: auto;
+}
+#content {
+    position: absolute;
+    background: #90b5df;
+}
+#sidebar table {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-spacing: 0px;
+    margin: 0;
+}
+#sidebar table td {
+    padding: 0px;
+    width: 100px;
+    height: 100px;
+}
+#sidebar h1 {
+    font-size: 16px;
+    font-weight: normal;
+    padding-top: 5px;
+}
+
+#sidebar p {
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 5px;
+}
+
+#sidebar img {
+  width: 100px;
+  height: 100px;
+}
+
+#header div {
+    float: left;
+}
+
+#header #heading {
+    margin: 20px;
+}
+
+#header #heading #subHeading {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 16px;
+}
+
+#sidebar div {
+    margin: 20px;
+}

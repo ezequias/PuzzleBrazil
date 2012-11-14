@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quebra cabeças dos estados brasileiros</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <script type="text/javascript" src="http://serverapi.arcgisonline.com/jsapi/arcgis/?v=2.8compact"></script>
+
+    <script src="javascript/thinkmaps.js"></script>
+    <script src="javascript/thinkmaps.htmltemplates.headerSidebar.js"></script>
+    <script src="javascript/thinkmaps.puzzle.main.js"></script>
+    <script src="javascript/thinkmaps.puzzle.localization.js"></script>
+    <script src="javascript/thinkmaps.puzzle.countries.js"></script>
+
+    <script type="text/javascript">
+           dojo.addOnLoad(thinkmaps.puzzle.main.onBodyLoad);
+    </script>
+
+</head>
+
+<body>
+
+<!-- header -->
+<div id="header">
+    <div id="heading">
+        Você conhece os estados brasileiros?<br>
+        <div id="subHeading">
+            Arraste os estados do lado direito para a posição correta no mapa.<br>
+            <div id="time" style="color: #a8cae6; padding-top: 10px;"></div>
+        </div>
+    </div>
+</div>
+
+<!-- sidebar -->
+<div id="sidebar"></div>
+
+<!-- content area -->
+<div id="content"></div>
+
+</body>
+</html>
