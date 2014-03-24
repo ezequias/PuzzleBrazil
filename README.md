@@ -1,4 +1,4 @@
-Conhe�a os estados brasileiros praticando o "PuzzleBrazil".
+Conheça os estados brasileiros praticando o "PuzzleBrazil".
 
 Know brazilian states praticing "PuzzleBrazil"
 
